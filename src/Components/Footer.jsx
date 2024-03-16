@@ -22,11 +22,11 @@ const socialIconVariants = {
 
 const Footer = () => {
   return (
-    <footer className="bg-[#333333] p-20 text-[#FDF7EE] py-8 mt-8">
-      <div className="container mx-auto flex items-center justify-between">
+    <footer className="bg-[#333333] p-4 text-[#FDF7EE] py-8">
+      <div className="container mx-auto flex flex-wrap justify-between items-center">
         {/* Diversity Club */}
         <motion.div 
-          className="flex items-center space-x-4"
+          className="flex items-center space-x-4 mb-4 md:mb-0" // Add media query for desktop layout
           variants={containerVariants}
           initial="hidden"
           animate="visible" 
@@ -41,8 +41,6 @@ const Footer = () => {
           <motion.a href="https://www.linkedin.com/company/clubdiversity/" target="_blank" variants={socialIconVariants}>
             <SiLinkedin size={30} />
           </motion.a>
-
-          {/* Add more socil links similarly, replacing SiInstagram with the desired icon */}
         </motion.div>
 
         {/* Anmol Awasthi */}
@@ -54,10 +52,9 @@ const Footer = () => {
         >
           <div className="space-y-2">
             <p>Created by: Anmol Awasthi</p>
-            <p className="text-sm">Freelance Web Developer</p> </div>
+            <p className="text-sm">Freelance Web Developer</p>
+          </div>
           <button className="bg-[#EB9E77] hover:bg-[#EB9E77] px-4 py-2 rounded-md transition-colors"><a href="mailto:anmolawasthi117@gmail.com">Create with Me</a></button>
-          {/* Add your social handles here */}
-          
         </motion.div>
       </div>
     </footer>

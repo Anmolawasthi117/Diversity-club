@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-import { Link } from 'react-router-dom';
+
 
 const Navbar = () => {
   
@@ -14,11 +14,11 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between">
         {/* Left side: Join Us */}
-        <motion.button
+        <motion.button href="#home"
           className=" hover:text-[#EB9E77] text-black font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline uppercase"
           
         >
-          <Link to = "/">club diversity</Link>
+          <a href="#home"><div >club diversity</div></a>
         </motion.button>
 
         {/* Center: About Us, Events, Our Team */}
@@ -52,6 +52,7 @@ const Navbar = () => {
             </motion.div>
           </li>
         </ul>
+
 
         {/* Right side: Home */}
         <motion.button

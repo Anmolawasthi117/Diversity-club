@@ -21,7 +21,7 @@ const Project = () => {
       <motion.div className="card-front w-full h-full rounded-xl bg-slate-500">
         <img
           className="w-full h-full bg-cover"
-          src="https://media.discordapp.net/attachments/1131918622802055233/1212792032393695334/photo1698827500.jpeg?ex=65f31f99&is=65e0aa99&hm=cbb51233da8d2d489844ea9ac88f02b45bbf25e7602e55c62656ae43bc0f7175&=&format=webp&width=524&height=393"
+          src="https://media.discordapp.net/attachments/1131918622802055233/1212792032393695334/photo1698827500.jpeg?ex=66059499&is=65f31f99&hm=b90953c323213a035065c7ab4e16ddbd3440409481f499a27f8c91397730c136&=&format=webp&width=524&height=393"
           alt=""
         />
       </motion.div>
@@ -40,7 +40,7 @@ const Project = () => {
             <div className=" w-full h-full  rounded-xl bg-slate-500">
               <img
                 className="w-full h-full bg-cover"
-                src="https://media.discordapp.net/attachments/1131918622802055233/1212810271605915728/IMG_20240229_224148_357.jpg?ex=65f33095&is=65e0bb95&hm=8c2000e73be7f9421f874b9d1a36f40c7ad7c2ac8b59b5a7cda45f969329f833&=&format=webp&width=761&height=571"
+                src="https://media.discordapp.net/attachments/1131918622802055233/1212810271605915728/IMG_20240229_224148_357.jpg?ex=6605a595&is=65f33095&hm=ce2510ef095044afbdf4d7fd709c80b36627148fbf08db20e16733e26d23b0c7&=&format=webp&width=761&height=571"
                 alt=""
               />
             </div>

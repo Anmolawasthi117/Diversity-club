@@ -4,7 +4,7 @@ import React from "react";
 const Landingpage = () => {
   
   return (
-    <div  data-scroll data-scroll-section data-scroll-speed="-.4" className="w-full h-screen bg-[#FCD5B4] text-black pt-1">
+    <div  data-scroll data-scroll-section data-scroll-speed="-.4" id="home"className="w-full h-screen bg-[#FCD5B4] text-black pt-1">
       <div className="textstructuren mt-40 px-20 text-base  ">
         {["See the", "world", "differently"].map((item, index) => {
           return (

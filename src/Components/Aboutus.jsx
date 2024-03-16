@@ -14,7 +14,7 @@ function Aboutus() {
           </button>
         </div>
         <div className="w-1/2 h-[70vh]  rounded-3xl">
-        <video autoPlay muted className="object-cover h-full w-full" src="https://media.discordapp.net/attachments/1131918622802055233/1212774250562326548/Reelvideo-63069.mp4?ex=65f30f09&is=65e09a09&hm=22683dd84ae4ca3798bd627aae52bdc7ad970d5db835f25362648055d65d090e&"></video>
+        <video autoPlay muted className="object-cover h-full w-full" src="https://media.discordapp.net/attachments/1131918622802055233/1212774250562326548/Reelvideo-63069.mp4?ex=66058409&is=65f30f09&hm=2bda9d24d17cb68bfb5bddbd36ca22b72c86dd43be403fcff41ef649415abc77&"></video>
 
         </div>
       </div>
