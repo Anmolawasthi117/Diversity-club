@@ -1,7 +1,7 @@
 import React from "react";
 import {
   reel
-} from "./img/Reelvideo-63069"
+} from "./img/reel";
 function Aboutus() {
   return (
     <div id="about"  className="w-full p-20 bg-[#EB9E77] rounded-tl-3xl rounded-tr-3xl text-black">
