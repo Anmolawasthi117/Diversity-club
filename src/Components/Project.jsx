@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
-import {img} from "./img/event";
-import {img2}  from "./img/team";
+import {img} from "./assets/event.jpg";
+import {img2}  from "./assets/team.jpg";
 const Project = () => {
   return (
     <div id="events" className="w-full py-20 bg-[#FCD5B4] ">
