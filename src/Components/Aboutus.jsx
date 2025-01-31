@@ -1,5 +1,7 @@
 import React from "react";
-
+import {
+  reel
+} from "./img/Reelvideo-63069"
 function Aboutus() {
   return (
     <div id="about"  className="w-full p-20 bg-[#EB9E77] rounded-tl-3xl rounded-tr-3xl text-black">
@@ -14,7 +16,9 @@ function Aboutus() {
           </button>
         </div>
         <div className="w-1/2 h-[70vh]  rounded-3xl">
-        <video autoPlay muted className="object-cover h-full w-full" src="https://media.discordapp.net/attachments/1131918622802055233/1212774250562326548/Reelvideo-63069.mp4?ex=66058409&is=65f30f09&hm=2bda9d24d17cb68bfb5bddbd36ca22b72c86dd43be403fcff41ef649415abc77&"></video>
+        <video autoPlay muted className="object-cover h-full w-full" src={
+          reel
+        }></video>
 
         </div>
       </div>
